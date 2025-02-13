@@ -1,5 +1,5 @@
 package go_say_hello
 
-func SayHello() string {
-	return "Hello, Sayang. Gimana Kabarnya?"
+func SayHello(nama string) string {
+	return "Hello," + nama + ". Gimana Kabarnya?"
 }
